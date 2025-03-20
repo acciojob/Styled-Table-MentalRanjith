@@ -1,1 +1,25 @@
-/* your code */
+ table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #fff;
+           
+    
+           
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+            cursor: pointer;
+        }
